@@ -10,11 +10,12 @@ void main() {
 	answer = rand() % 100 + 1;
 
 	for (try = 0; ; try++) {
+		scanf_s("%d", &Number);
 		if (answer > Number) {
-			printf("DOWN\n");
+			printf("UP\n");
 		}
 		else if (answer < Number) {
-			printf("UP\n");
+			printf("DOWN\n");
 		}
 		else {
 			printf("정답입니다! %d번만에 문제를 맞추셨습니다.\n", try);
