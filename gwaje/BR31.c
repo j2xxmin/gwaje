@@ -38,6 +38,14 @@ void main() {
 	}
 	else {
 		printf("컴퓨터가 선입니다.");
+		while (cNumber < 31) {
+			printf("Computer: ");
+			random = rand() % 3;
+			for (int i = 0; i <= random; i++) {
+				cNumber++;
+				printf("%d\t", cNumber);
+			}
+		}
 	}
 
 	return 0;
