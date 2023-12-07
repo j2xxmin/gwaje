@@ -26,6 +26,12 @@ void main() {
 				printf("%d\t", cNumber);
 			}
 			printf("\n");
+			printf("You: ");
+			scanf_s("%d", &uNumber);
+			for (int i = 0; i < uNumber; i++) {
+				cNumber++;
+				printf("%d\t", cNumber);
+			}
 		}
 	}
 	else {
