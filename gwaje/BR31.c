@@ -17,10 +17,11 @@ void main() {
 			++cNumber;
 			printf("%d\t", cNumber);
 		}
+		printf("\n");
 		while (cNumber < 31) {
 			printf("Computer: ");
-			random = rand() % 9 - 6;
-			for (int i = 0; i < random; i++) {
+			random = rand() % 3;
+			for (int i = 0; i <= random; i++) {
 				cNumber++;
 				printf("%d\t", cNumber);
 			}
