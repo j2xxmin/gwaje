@@ -17,6 +17,15 @@ void main() {
 			++cNumber;
 			printf("%d\t", cNumber);
 		}
+		while (cNumber < 31) {
+			printf("Computer: ");
+			random = rand() % 9 - 6;
+			for (int i = 0; i < random; i++) {
+				cNumber++;
+				printf("%d\t", cNumber);
+			}
+			printf("\n");
+		}
 	}
 	else {
 		printf("컴퓨터가 선입니다.");
