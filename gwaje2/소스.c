@@ -7,4 +7,11 @@ void main() {
 	int answer;
 	srand(time(NULL));
 	answer = rand() % 100 + 1;
+
+	while (Number = answer) {
+		scanf_s("%d", &Number);
+		if (Number > answer) printf("DOWN\n");
+		else printf("UP\n");
+	}
+	return 0;
 }
