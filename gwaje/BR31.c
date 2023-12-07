@@ -26,12 +26,14 @@ void main() {
 				printf("%d\t", cNumber);
 			}
 			printf("\n");
-			printf("You: ");
+			printf("%d부터 %d까지의 수 중에서 몇 개를 입력하시겠어요?\n", cNumber+1, cNumber+3);
 			scanf_s("%d", &uNumber);
+			printf("You: ");
 			for (int i = 0; i < uNumber; i++) {
 				cNumber++;
 				printf("%d\t", cNumber);
 			}
+			printf("\n");
 		}
 	}
 	else {
