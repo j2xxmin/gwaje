@@ -12,8 +12,8 @@ void main() {
 	while (Number = answer) {
 		scanf_s("%d", &Number);
 		if (Number > answer) printf("DOWN\n");
-		else printf("UP\n");
+		else if (Number < answer) printf("UP\n");
+		else printf("정답입니다!");
 	}
-	printf("정답입니다!");
 	return 0;
 }
