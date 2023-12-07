@@ -5,6 +5,7 @@
 void main() {
 	int Number;
 	int answer;
+	int try;
 	srand(time(NULL));
 	answer = rand() % 100 + 1;
 
