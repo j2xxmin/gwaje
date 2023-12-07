@@ -1,0 +1,10 @@
+﻿  BR31.c
+C:\Users\thunder\Documents\2학년 2학기\gwaje\gwaje\BR31.c(14,11): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\thunder\Documents\2학년 2학기\gwaje\gwaje\BR31.c(14,11): message : 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+C:\Users\thunder\Documents\2학년 2학기\gwaje\gwaje\BR31.c(30,13): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\thunder\Documents\2학년 2학기\gwaje\gwaje\BR31.c(30,13): message : 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+C:\Users\thunder\Documents\2학년 2학기\gwaje\gwaje\BR31.c(49,11): warning C4476: 'printf' : 서식 지정자에 알 수 없는 형식 필드 문자 '\xea'이(가) 있습니다.
+C:\Users\thunder\Documents\2학년 2학기\gwaje\gwaje\BR31.c(49,102): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\thunder\Documents\2학년 2학기\gwaje\gwaje\BR31.c(49,102): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+C:\Users\thunder\Documents\2학년 2학기\gwaje\gwaje\BR31.c(58,2): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
+  gwaje.vcxproj -> C:\Users\thunder\Documents\2학년 2학기\gwaje\x64\Debug\gwaje.exe
